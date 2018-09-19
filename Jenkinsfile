@@ -32,7 +32,7 @@ pipeline  {
 
       steps {
 
-      sh "cp dist/rectangle_${env.BUILD_NUMBER}.jar /var/www/html/rectangle/all/"
+      sh "cp dist/rectangle_${env.BUILD_NUMBER}.jar /var/www/html/rectangles/all/"
 
      }
 
